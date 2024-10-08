@@ -1,0 +1,137 @@
+
+
+.portfolio{
+    position: relative;
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    background-color:rgba(6,61,68,255);
+    align-items: center;
+}
+
+.tarjeta{
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 2rem;
+    height: 80%;
+    width: 60%;
+    margin: 10%;
+    transition: transform .5s, box-shadow .5s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    padding: 2em;
+}
+
+
+.tarjeta:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.7);
+}
+
+.longlegs h1::before{
+    content:'';
+    display: flex;
+    width: 100%; 
+    height: 300px;  
+    background-image: url('../portafolioDeTarjetas/img/longlegsPoster.jpg');
+    background-size: contain; 
+    background-repeat: no-repeat; 
+    background-position: center;
+    align-items: center;
+}
+
+.tarjeta h1{
+    font-family: "Alte Haas Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-style:normal;
+    text-align: center;
+}
+
+.robotSalvaje h1::before{
+    content:'';
+    display: flex;
+    width: 100%; 
+    height: 300px;  
+    background-image: url("../portafolioDeTarjetas/img/robotSalvajePoster.jpg");
+    background-size: contain; 
+    background-repeat: no-repeat; 
+    background-position: center;
+    align-items: center;
+}
+
+
+
+.theSubstance h1::before{
+    content:'';
+    display: flex;
+    width: 100%; 
+    height: 300px;  
+    background-image: url("../portafolioDeTarjetas/img/theSubstancePoster.jpg");
+    background-size: contain; 
+    background-repeat: no-repeat; 
+    background-position: center;
+    align-items: center;
+}
+
+.joker h1::before{
+    content:'';
+    display: flex;
+    width: 100%; 
+    height: 300px;  
+    background-image: url("../portafolioDeTarjetas/img/jokerPoster.jpg");
+    background-size: contain; 
+    background-repeat: no-repeat; 
+    background-position: center;
+    align-items: center;
+}
+
+.boton{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2em;
+    border: solid;
+    border-color: rgba(40,126,123,255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:white;
+    text-align: center;
+    background-color:  rgba(40,126,123,255);
+    width: 80%;
+    height: 2em;
+    margin-bottom: 1em;
+    position: relative;
+}
+
+.boton:hover{
+    border-color: rgba(6,61,68,255);
+    background-color: rgba(6,61,68,255);
+}
+
+@font-face {
+    font-family: "Alte Haas Grotesk";
+    src: url('../portafolioDeTarjetas/fonts/AlteHaasGroteskBold.ttf');
+}
+
+
+.tarjeta p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    line-break: auto;
+    margin-top: -1em;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+}
+
+.boton::after{
+    content:'Más información';
+    display: block;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 1em;
+    color:rgba(40,126,123,255);
+    width: 100%;
+}
+
+
